@@ -1,4 +1,16 @@
 services:
-  - name: web
+  - name: facial-expression-app
     buildCommand: pip install -r requirements.txt
     startCommand: python video_app.py
+
+  - name: wrinkles-detection-app
+    buildCommand: pip install -r requirements.txt
+    startCommand: python wrinkle_flask_app.py
+
+  - name: drowsiness-detection-app
+    buildCommand: pip install -r requirements.txt
+    startCommand: python drowsiness_app.py
+
+  - name: speech-emotion-app
+    buildCommand: pip install -r requirements.txt
+    startCommand: python speech_emotion_app.py
