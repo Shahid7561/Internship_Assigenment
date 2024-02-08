@@ -1,10 +1,10 @@
-Flask==1.1.2
-opencv-python==4.5.3
-numpy==1.20.2
-keras==2.4.3
-Pillow==8.2.0  # Required for Wrinkles Detection app
-dlib==19.22.0   # Required for Drowsiness Detection app
-scipy==1.6.1    # Required for Drowsiness Detection app
-librosa==0.8.0  # Required for Speech Emotion Recognition app
-joblib==1.0.1   # Required for Speech Emotion Recognition app
-pydub==0.25.1   # Required for Speech Emotion Recognition app
+Flask
+opencv-python
+numpy
+keras
+Pillow  # Required for Wrinkles Detection app
+dlib   # Required for Drowsiness Detection app
+scipy    # Required for Drowsiness Detection app
+librosa  # Required for Speech Emotion Recognition app
+joblib   # Required for Speech Emotion Recognition app
+pydub   # Required for Speech Emotion Recognition app
