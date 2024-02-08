@@ -69,6 +69,3 @@ def index():
             emotion_label = predict_emotion(file_path)
             return render_template('speech_index.html', result=f"Predicted Emotion: {emotion_label}", audio_path=file_path)
     return render_template('speech_index.html', result=None)
-
-if __name__ == "__main__":
-    app.run(debug=True)
