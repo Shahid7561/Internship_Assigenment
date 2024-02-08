@@ -54,6 +54,3 @@ def FacialExpressionModel(json_file, weight_file):
     model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
     return model
-
-if __name__ == "__main__":
-    app.run(debug=True)
