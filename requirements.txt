@@ -4,7 +4,7 @@ opencv-python
 numpy
 keras
 Pillow  # Required for Wrinkles Detection app
-dlib   # Required for Drowsiness Detection app
+dlib==19.22.0   # Required for Drowsiness Detection app
 scipy    # Required for Drowsiness Detection app
 librosa  # Required for Speech Emotion Recognition app
 joblib   # Required for Speech Emotion Recognition app
