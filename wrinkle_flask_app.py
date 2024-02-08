@@ -63,5 +63,3 @@ def detect_wrinkles_route():
         print(e)
         return render_template('wrinkles_result.html', result="Error during detection")
 
-if __name__ == "__main__":
-    app.run(debug=True)
